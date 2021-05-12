@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Rotacje 3D: Dokumentacja pliku include/KatyRPY.hh</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Rotacje 3D
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Definicje typów</a> &#124;
+<a href="#func-members">Funkcje</a>  </div>
+  <div class="headertitle">
+<div class="title">Dokumentacja pliku KatyRPY.hh</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;cmath&gt;</code><br />
+<code>#include &quot;<a class="el" href="_wektor3_d_8hh_source.html">Wektor3D.hh</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_macierz_8hh_source.html">Macierz.hh</a>&quot;</code><br />
+</div>
+<p><a href="_katy_r_p_y_8hh_source.html">Idź do kodu źródłowego tego pliku.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Definicje typów</h2></td></tr>
+<tr class="memitem:abcb07f231d4c2a23e7ef4e889cb7f314"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="class_macierz.html">Macierz</a>&lt; 4, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_katy_r_p_y_8hh.html#abcb07f231d4c2a23e7ef4e889cb7f314">Macierz4X4</a></td></tr>
+<tr class="memdesc:abcb07f231d4c2a23e7ef4e889cb7f314"><td class="mdescLeft">&#160;</td><td class="mdescRight">Klasa modelująca macierz o wymiarach 4x4.  <a href="#abcb07f231d4c2a23e7ef4e889cb7f314">Więcej...</a><br /></td></tr>
+<tr class="separator:abcb07f231d4c2a23e7ef4e889cb7f314"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funkcje</h2></td></tr>
+<tr class="memitem:a2377b1a5c1f255e391e183f662c3c3d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_katy_r_p_y_8hh.html#a2377b1a5c1f255e391e183f662c3c3d5">Wypelnij</a> (<a class="el" href="_katy_r_p_y_8hh.html#abcb07f231d4c2a23e7ef4e889cb7f314">Macierz4X4</a> &amp;macierz, double alpha, double beta, double gamma, const <a class="el" href="_wektor3_d_8hh.html#a2a02b2b21f9bbc65809b59cf15fa65d1">Wektor3D</a> &amp;translacja)</td></tr>
+<tr class="memdesc:a2377b1a5c1f255e391e183f662c3c3d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja wypełniająca Macierz4x4, tak aby umożliwiała wykonanie operacji obrotu o kąty RPY i transformacji o podany wektor.  <a href="#a2377b1a5c1f255e391e183f662c3c3d5">Więcej...</a><br /></td></tr>
+<tr class="separator:a2377b1a5c1f255e391e183f662c3c3d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Dokumentacja definicji typów</h2>
+<a id="abcb07f231d4c2a23e7ef4e889cb7f314"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcb07f231d4c2a23e7ef4e889cb7f314">&#9670;&nbsp;</a></span>Macierz4X4</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="class_macierz.html">Macierz</a>&lt;4, double&gt; <a class="el" href="_katy_r_p_y_8hh.html#abcb07f231d4c2a23e7ef4e889cb7f314">Macierz4X4</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Klasa modelująca macierz o wymiarach 4x4. </p>
+<p>Klasa jest instancją klasy <a class="el" href="class_macierz.html" title="Klasa modelująca macierz kwadratową o zadanym rozmiarze i zadanym typie przechowywanych wartości...">Macierz</a>, której rozmiar został określony jako 4x4, a typ przechowywanych współrzędnych jako double. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja funkcji</h2>
+<a id="a2377b1a5c1f255e391e183f662c3c3d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2377b1a5c1f255e391e183f662c3c3d5">&#9670;&nbsp;</a></span>Wypelnij()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Wypelnij </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_katy_r_p_y_8hh.html#abcb07f231d4c2a23e7ef4e889cb7f314">Macierz4X4</a> &amp;&#160;</td>
+          <td class="paramname"><em>macierz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>alpha</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>beta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>gamma</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="_wektor3_d_8hh.html#a2a02b2b21f9bbc65809b59cf15fa65d1">Wektor3D</a> &amp;&#160;</td>
+          <td class="paramname"><em>translacja</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja wypełniająca Macierz4x4, tak aby umożliwiała wykonanie operacji obrotu o kąty RPY i transformacji o podany wektor. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>
