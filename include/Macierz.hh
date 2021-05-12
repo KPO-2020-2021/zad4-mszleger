@@ -48,7 +48,7 @@ class Macierz {
   public:
 
     /**
-     * /brief Konstruktor bezarguemtowy
+     * \brief Konstruktor bezarguemtowy
      * 
      * Konstruktor ustawiający wszystkie przechowywane przez macierz wartości na 0.
      */
