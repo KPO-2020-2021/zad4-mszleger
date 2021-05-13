@@ -1,0 +1,5 @@
+W projekcie zrealizowałem dwa rozszerzenia:
+-wyświetlanie pełnych brył,
+-wyświetlanie i zarządzaine wieloma bryłami.
+
+W projekcie napisałem testy jednostkowe wszystkich funkcjonalności za wyjątkiem operatora >> dla klasy Wektor.
